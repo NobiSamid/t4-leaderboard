@@ -21,6 +21,54 @@ main {
     border-radius: 5px;
 }
 
+/* Navigation bar */
+
+nav {
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 870px;
+}
+
+.logo {
+    width: 40.42px;
+    height: 51px;
+}
+
+.nav-heading a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 18px;
+}
+
+
+.nav-elements .nav-option a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-option {
+    margin: 18px;
+}
+
 /* top players style */
 
 .top-players {
